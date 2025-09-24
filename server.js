@@ -64,8 +64,8 @@ app.get("/", async (req, res) => {
 
   // Responde com um JSON contendo uma mensagem, o nome do autor e o status da conexão com o banco de dados
   res.json({
-    message: "API para _____", // Substitua pelo conteúdo da sua API
-    author: "Seu_nome_completo", // Substitua pelo seu nome
+    message: "API para questões ", // Substitua pelo conteúdo da sua API
+    author: "Gabriela Martins Matos Gomes", // Substitua pelo seu nome
     dbStatus: dbStatus,
   });
 });
